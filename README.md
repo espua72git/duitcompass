@@ -27,6 +27,8 @@ npm run dev
 
 Open the local address printed in the terminal. To create a production build, run `npm run build`; the static files will be in `dist/`. They can be deployed to a static hosting provider. Push the project to GitHub when ready; GitHub is a code host, and GitHub Pages or another provider can host the built site.
 
+GitHub Actions deploys the `main` branch to GitHub Pages at `https://espua72git.github.io/duitcompass/`. In the repository's Pages settings, the build and deployment source must be set to **GitHub Actions**. The Vite build uses `/duitcompass/` as its base path when running in GitHub Actions; local builds use `/`.
+
 ## Future development
 
 - Implement and validate each financial module separately, including Malaysian-specific assumptions.
