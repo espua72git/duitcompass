@@ -2,7 +2,7 @@
 
 A mobile-friendly starting point for a Malaysian personal finance planning platform. It includes housing loan, hire purchase, EPF, retirement savings and buy-to-rent estimators. Calculations run in the browser and financial information is not saved.
 
-Housing estimates use a constant annual interest rate applied monthly to the outstanding balance. Extra payments are applied monthly; actual bank calculations, rates, fees and charges may differ. Values are calculated without monthly rounding and displayed rounded to cents. Calculations are limited to a 100-year new loan term and a 1,000-year payoff schedule.
+Housing estimates use a constant annual interest rate applied monthly to the outstanding balance. A one-time extra payment replaces the regular monthly extra for its selected month; duplicate months are not accepted. Payments are capped at the amount needed to settle the loan, and payments after payoff are ignored. Actual bank calculations, rates, fees and charges may differ. Values are calculated without monthly rounding and displayed rounded to cents. Calculations are limited to a 100-year new loan term and a 1,000-year payoff schedule.
 
 Hire purchase estimates use flat-rate interest on the original principal, with principal and interest allocated evenly across the term. Fees, charges and actual lender terms are not included. Amounts are calculated without monthly rounding and displayed to the nearest sen.
 
